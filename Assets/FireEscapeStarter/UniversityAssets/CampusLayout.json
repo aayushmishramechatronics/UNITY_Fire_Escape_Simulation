@@ -1,0 +1,1035 @@
+{
+  "areas": [
+    {
+      "id": "lab",
+      "label": "CHEMISTRY\nLABORATORY",
+      "kind": "room",
+      "x0": -8,
+      "x1": 8,
+      "z0": -10,
+      "z1": 2,
+      "height": 3.3
+    },
+    {
+      "id": "entry",
+      "label": "",
+      "kind": "corridor",
+      "x0": -2,
+      "x1": 2,
+      "z0": 2,
+      "z1": 10,
+      "height": 3.3
+    },
+    {
+      "id": "main",
+      "label": "",
+      "kind": "corridor",
+      "x0": -18,
+      "x1": 22,
+      "z0": 10,
+      "z1": 14,
+      "height": 3.3
+    },
+    {
+      "id": "exit1a",
+      "label": "",
+      "kind": "corridor",
+      "x0": -2,
+      "x1": 2,
+      "z0": 14,
+      "z1": 22,
+      "height": 3.3
+    },
+    {
+      "id": "exit1b",
+      "label": "",
+      "kind": "corridor",
+      "x0": 2,
+      "x1": 10,
+      "z0": 18,
+      "z1": 22,
+      "height": 3.3
+    },
+    {
+      "id": "exit2a",
+      "label": "",
+      "kind": "corridor",
+      "x0": -22,
+      "x1": -18,
+      "z0": 10,
+      "z1": 26,
+      "height": 3.3
+    },
+    {
+      "id": "exit2b",
+      "label": "",
+      "kind": "corridor",
+      "x0": -26,
+      "x1": -22,
+      "z0": 22,
+      "z1": 26,
+      "height": 3.3
+    },
+    {
+      "id": "exit3a",
+      "label": "",
+      "kind": "corridor",
+      "x0": 22,
+      "x1": 26,
+      "z0": 10,
+      "z1": 34,
+      "height": 3.3
+    },
+    {
+      "id": "exit3b",
+      "label": "",
+      "kind": "corridor",
+      "x0": 6,
+      "x1": 22,
+      "z0": 30,
+      "z1": 34,
+      "height": 3.3
+    },
+    {
+      "id": "exit3c",
+      "label": "",
+      "kind": "corridor",
+      "x0": 6,
+      "x1": 10,
+      "z0": 34,
+      "z1": 42,
+      "height": 3.3
+    },
+    {
+      "id": "exit3d",
+      "label": "",
+      "kind": "corridor",
+      "x0": 10,
+      "x1": 30,
+      "z0": 38,
+      "z1": 42,
+      "height": 3.3
+    },
+    {
+      "id": "chemical",
+      "label": "CHEMICAL\nSTORAGE",
+      "kind": "room",
+      "x0": -14,
+      "x1": -4,
+      "z0": 14,
+      "z1": 20,
+      "height": 3.3
+    },
+    {
+      "id": "solvent",
+      "label": "SOLVENT\nPREPARATION",
+      "kind": "room",
+      "x0": 10,
+      "x1": 20,
+      "z0": 2,
+      "z1": 10,
+      "height": 3.3
+    },
+    {
+      "id": "office",
+      "label": "FACULTY\nOFFICE",
+      "kind": "room",
+      "x0": -16,
+      "x1": -6,
+      "z0": 2,
+      "z1": 10,
+      "height": 3.3
+    },
+    {
+      "id": "lab2",
+      "label": "ANALYTICAL\nLABORATORY",
+      "kind": "room",
+      "x0": 6,
+      "x1": 18,
+      "z0": 22,
+      "z1": 30,
+      "height": 3.3
+    },
+    {
+      "id": "toilets",
+      "label": "TOILETS",
+      "kind": "room",
+      "x0": 12,
+      "x1": 20,
+      "z0": 34,
+      "z1": 38,
+      "height": 3.3
+    },
+    {
+      "id": "utility",
+      "label": "UTILITY\nROOM",
+      "kind": "room",
+      "x0": -18,
+      "x1": -10,
+      "z0": 20,
+      "z1": 28,
+      "height": 3.3
+    },
+    {
+      "id": "records",
+      "label": "RECORDS\nOFFICE",
+      "kind": "room",
+      "x0": 26,
+      "x1": 34,
+      "z0": 18,
+      "z1": 28,
+      "height": 3.3
+    },
+    {
+      "id": "atrium",
+      "label": "SCIENCE ATRIUM",
+      "kind": "corridor",
+      "x0": 30,
+      "x1": 46,
+      "z0": 30,
+      "z1": 50,
+      "height": 6.4
+    },
+    {
+      "id": "classroom",
+      "label": "TEACHING LAB",
+      "kind": "room",
+      "x0": 34,
+      "x1": 46,
+      "z0": 22,
+      "z1": 30,
+      "height": 3.3
+    },
+    {
+      "id": "service",
+      "label": "SERVICE PASSAGE",
+      "kind": "corridor",
+      "x0": 46,
+      "x1": 66,
+      "z0": 38,
+      "z1": 42,
+      "height": 3.3
+    },
+    {
+      "id": "north_a",
+      "label": "",
+      "kind": "corridor",
+      "x0": 46,
+      "x1": 50,
+      "z0": 42,
+      "z1": 56,
+      "height": 3.3
+    },
+    {
+      "id": "north_b",
+      "label": "NORTH TEACHING WING",
+      "kind": "corridor",
+      "x0": 50,
+      "x1": 62,
+      "z0": 52,
+      "z1": 56,
+      "height": 3.3
+    },
+    {
+      "id": "north_c",
+      "label": "",
+      "kind": "corridor",
+      "x0": 62,
+      "x1": 66,
+      "z0": 42,
+      "z1": 56,
+      "height": 3.3
+    },
+    {
+      "id": "stair_lobby",
+      "label": "",
+      "kind": "corridor",
+      "x0": 66,
+      "x1": 70,
+      "z0": 38,
+      "z1": 42,
+      "height": 4.5
+    },
+    {
+      "id": "assembly",
+      "label": "ASSEMBLY COURTYARD",
+      "kind": "outdoor",
+      "x0": 70,
+      "x1": 84,
+      "z0": 32,
+      "z1": 48,
+      "height": 0
+    },
+    {
+      "id": "east_gallery",
+      "label": "EAST TEACHING GALLERY",
+      "kind": "corridor",
+      "x0": 26,
+      "x1": 70,
+      "z0": 10,
+      "z1": 16,
+      "height": 3.8
+    },
+    {
+      "id": "seminar",
+      "label": "SEMINAR ROOMS",
+      "kind": "room",
+      "x0": 30,
+      "x1": 46,
+      "z0": 2,
+      "z1": 10,
+      "height": 3.3
+    },
+    {
+      "id": "learning",
+      "label": "STUDENT COMMONS",
+      "kind": "room",
+      "x0": 48,
+      "x1": 64,
+      "z0": 2,
+      "z1": 10,
+      "height": 3.3
+    },
+    {
+      "id": "computing",
+      "label": "COMPUTING LAB",
+      "kind": "room",
+      "x0": 34,
+      "x1": 44,
+      "z0": 16,
+      "z1": 22,
+      "height": 3.3
+    },
+    {
+      "id": "project",
+      "label": "PROJECT STUDIO",
+      "kind": "room",
+      "x0": 48,
+      "x1": 62,
+      "z0": 16,
+      "z1": 26,
+      "height": 3.3
+    },
+    {
+      "id": "promenade",
+      "label": "CAMPUS PROMENADE",
+      "kind": "outdoor",
+      "x0": 70,
+      "x1": 84,
+      "z0": 10,
+      "z1": 32,
+      "height": 0
+    }
+  ],
+  "doors": [
+    {
+      "id": "lab",
+      "label": "CHEMISTRY LAB",
+      "axis": "z",
+      "x": 1,
+      "z": 2,
+      "yaw": 180,
+      "mode": "passage"
+    },
+    {
+      "id": "chemical",
+      "label": "CHEMICAL STORAGE",
+      "axis": "z",
+      "x": -9,
+      "z": 14,
+      "yaw": 0,
+      "mode": "fatal",
+      "warning": "DANGER - REACTIVE CHEMICALS"
+    },
+    {
+      "id": "solvent",
+      "label": "SOLVENT PREPARATION",
+      "axis": "z",
+      "x": 15,
+      "z": 10,
+      "yaw": 180,
+      "mode": "fatal",
+      "warning": "DANGER - FLAMMABLE VAPOURS"
+    },
+    {
+      "id": "office",
+      "label": "FACULTY OFFICE",
+      "axis": "z",
+      "x": -11,
+      "z": 10,
+      "yaw": 180,
+      "mode": "safe"
+    },
+    {
+      "id": "lab2",
+      "label": "ANALYTICAL LAB",
+      "axis": "z",
+      "x": 13,
+      "z": 30,
+      "yaw": 180,
+      "mode": "locked"
+    },
+    {
+      "id": "toilets",
+      "label": "TOILETS",
+      "axis": "z",
+      "x": 17,
+      "z": 34,
+      "yaw": 0,
+      "mode": "locked"
+    },
+    {
+      "id": "utility",
+      "label": "UTILITY ROOM",
+      "axis": "x",
+      "x": -18,
+      "z": 23,
+      "yaw": 90,
+      "mode": "locked"
+    },
+    {
+      "id": "records",
+      "label": "RECORDS OFFICE",
+      "axis": "x",
+      "x": 26,
+      "z": 23,
+      "yaw": 90,
+      "mode": "locked"
+    },
+    {
+      "id": "teaching",
+      "label": "TEACHING LAB",
+      "axis": "z",
+      "x": 39,
+      "z": 30,
+      "yaw": 0,
+      "mode": "passage"
+    },
+    {
+      "id": "campus_37_10",
+      "label": "TEACHING ROOM",
+      "axis": "z",
+      "x": 37,
+      "z": 10,
+      "yaw": 180,
+      "mode": "locked"
+    },
+    {
+      "id": "campus_53_10",
+      "label": "TEACHING ROOM",
+      "axis": "z",
+      "x": 53,
+      "z": 10,
+      "yaw": 180,
+      "mode": "locked"
+    },
+    {
+      "id": "campus_37_16",
+      "label": "TEACHING ROOM",
+      "axis": "z",
+      "x": 37,
+      "z": 16,
+      "yaw": 0,
+      "mode": "locked"
+    },
+    {
+      "id": "campus_53_16",
+      "label": "TEACHING ROOM",
+      "axis": "z",
+      "x": 53,
+      "z": 16,
+      "yaw": 0,
+      "mode": "locked"
+    }
+  ],
+  "windows": [
+    {
+      "axis": "z",
+      "x": 9,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 11,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 35,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 37,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 41,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 43,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 45,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 33,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 35,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 39,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 41,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 43,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 49,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 51,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 55,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 57,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 59,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 61,
+      "z": 10
+    },
+    {
+      "axis": "z",
+      "x": 35,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 39,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 41,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 49,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 51,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 55,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 57,
+      "z": 16
+    },
+    {
+      "axis": "z",
+      "x": 59,
+      "z": 16
+    }
+  ],
+  "routes": [
+    {
+      "label": "EXIT 1",
+      "points": [
+        {
+          "x": 1,
+          "z": 0
+        },
+        {
+          "x": 1,
+          "z": 12
+        },
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": 0,
+          "z": 20
+        },
+        {
+          "x": 10,
+          "z": 20
+        }
+      ]
+    },
+    {
+      "label": "EXIT 2",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": -20,
+          "z": 12
+        },
+        {
+          "x": -20,
+          "z": 24
+        },
+        {
+          "x": -26,
+          "z": 24
+        }
+      ]
+    },
+    {
+      "label": "EXIT 3",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": 24,
+          "z": 12
+        },
+        {
+          "x": 24,
+          "z": 32
+        },
+        {
+          "x": 8,
+          "z": 32
+        },
+        {
+          "x": 8,
+          "z": 40
+        },
+        {
+          "x": 38,
+          "z": 40
+        },
+        {
+          "x": 48,
+          "z": 40
+        },
+        {
+          "x": 64,
+          "z": 40
+        },
+        {
+          "x": 70,
+          "z": 40
+        },
+        {
+          "x": 77,
+          "z": 40
+        }
+      ]
+    },
+    {
+      "label": "EXIT 3 - NORTH WING",
+      "points": [
+        {
+          "x": 48,
+          "z": 40
+        },
+        {
+          "x": 48,
+          "z": 54
+        },
+        {
+          "x": 64,
+          "z": 54
+        },
+        {
+          "x": 64,
+          "z": 40
+        }
+      ]
+    },
+    {
+      "label": "EXIT 4",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": 24,
+          "z": 12
+        },
+        {
+          "x": 30,
+          "z": 13
+        },
+        {
+          "x": 70,
+          "z": 13
+        },
+        {
+          "x": 77,
+          "z": 13
+        },
+        {
+          "x": 77,
+          "z": 40
+        }
+      ]
+    }
+  ],
+  "mapX": -4,
+  "mapZ": 1.88,
+  "expansionIds": [
+    "east_gallery",
+    "seminar",
+    "learning",
+    "computing",
+    "project",
+    "promenade"
+  ],
+  "mapPixelX": 130,
+  "mapPixelY": 280,
+  "mapScale": 16,
+  "mapMinX": -28,
+  "mapMaxZ": 58,
+  "obstacles": [
+    {
+      "name": "Atrium column",
+      "x": 31,
+      "y": 3.1,
+      "z": 32,
+      "sx": 0.65,
+      "sy": 6.2,
+      "sz": 0.65
+    },
+    {
+      "name": "Atrium column",
+      "x": 45,
+      "y": 3.1,
+      "z": 32,
+      "sx": 0.65,
+      "sy": 6.2,
+      "sz": 0.65
+    },
+    {
+      "name": "Atrium column",
+      "x": 31,
+      "y": 3.1,
+      "z": 48,
+      "sx": 0.65,
+      "sy": 6.2,
+      "sz": 0.65
+    },
+    {
+      "name": "Atrium column",
+      "x": 45,
+      "y": 3.1,
+      "z": 48,
+      "sx": 0.65,
+      "sy": 6.2,
+      "sz": 0.65
+    },
+    {
+      "name": "Atrium reception",
+      "x": 43.4,
+      "y": 0.55,
+      "z": 33,
+      "sx": 3.6,
+      "sy": 1.1,
+      "sz": 1.3
+    },
+    {
+      "name": "Fallen atrium panel",
+      "x": 38,
+      "y": 0.18,
+      "z": 41,
+      "sx": 2.8,
+      "sy": 0.36,
+      "sz": 2.1
+    },
+    {
+      "name": "Atrium display",
+      "x": 33,
+      "y": 0.65,
+      "z": 47,
+      "sx": 2.8,
+      "sy": 1.3,
+      "sz": 1
+    },
+    {
+      "name": "Atrium seats",
+      "x": 42,
+      "y": 0.45,
+      "z": 47.8,
+      "sx": 3,
+      "sy": 0.9,
+      "sz": 0.7
+    },
+    {
+      "name": "Teaching bench",
+      "x": 36.7,
+      "y": 0.45,
+      "z": 24,
+      "sx": 3,
+      "sy": 0.9,
+      "sz": 1.05
+    },
+    {
+      "name": "Teaching bench",
+      "x": 36.7,
+      "y": 0.45,
+      "z": 27,
+      "sx": 3,
+      "sy": 0.9,
+      "sz": 1.05
+    },
+    {
+      "name": "Teaching bench",
+      "x": 41.8,
+      "y": 0.45,
+      "z": 24,
+      "sx": 3,
+      "sy": 0.9,
+      "sz": 1.05
+    },
+    {
+      "name": "Teaching bench",
+      "x": 41.8,
+      "y": 0.45,
+      "z": 27,
+      "sx": 3,
+      "sy": 0.9,
+      "sz": 1.05
+    },
+    {
+      "name": "Service cabinet",
+      "x": 53,
+      "y": 0.95,
+      "z": 41.6,
+      "sx": 2,
+      "sy": 1.9,
+      "sz": 0.5
+    },
+    {
+      "name": "Service debris",
+      "x": 58,
+      "y": 0.3,
+      "z": 41.2,
+      "sx": 1.5,
+      "sy": 0.6,
+      "sz": 1.2
+    },
+    {
+      "name": "North vending",
+      "x": 54,
+      "y": 1.05,
+      "z": 55.4,
+      "sx": 1.2,
+      "sy": 2.1,
+      "sz": 0.85
+    },
+    {
+      "name": "North seats",
+      "x": 59,
+      "y": 0.45,
+      "z": 55.5,
+      "sx": 2.4,
+      "sy": 0.9,
+      "sz": 0.7
+    },
+    {
+      "name": "Stair enclosure",
+      "x": 68,
+      "y": 1.5,
+      "z": 41.7,
+      "sx": 3.5,
+      "sy": 3,
+      "sz": 0.35
+    },
+    {
+      "name": "Courtyard planter",
+      "x": 75,
+      "y": 0.4,
+      "z": 34.5,
+      "sx": 3,
+      "sy": 0.8,
+      "sz": 1.5
+    },
+    {
+      "name": "Courtyard planter",
+      "x": 80,
+      "y": 0.4,
+      "z": 45.5,
+      "sx": 3,
+      "sy": 0.8,
+      "sz": 1.5
+    },
+    {
+      "name": "Teaching display",
+      "x": -3.5,
+      "y": 0.95,
+      "z": 13.6,
+      "sx": 1.4,
+      "sy": 1.9,
+      "sz": 0.5
+    },
+    {
+      "name": "Gallery fallen cupboard",
+      "x": 40,
+      "y": 0.8,
+      "z": 11.6,
+      "sx": 2,
+      "sy": 1.6,
+      "sz": 2.8
+    },
+    {
+      "name": "Gallery debris",
+      "x": 51,
+      "y": 0.325,
+      "z": 14.5,
+      "sx": 2.2,
+      "sy": 0.65,
+      "sz": 2.6
+    },
+    {
+      "name": "Gallery overturned trolley",
+      "x": 61,
+      "y": 0.425,
+      "z": 11.4,
+      "sx": 2,
+      "sy": 0.85,
+      "sz": 2.2
+    },
+    {
+      "name": "Gallery seats",
+      "x": 29,
+      "y": 0.425,
+      "z": 15.5,
+      "sx": 2.3,
+      "sy": 0.85,
+      "sz": 0.65
+    }
+  ],
+  "newFires": [
+    {
+      "x": 38,
+      "y": 0.1,
+      "z": 41,
+      "sx": 3.6,
+      "sz": 2.6,
+      "at": 35
+    },
+    {
+      "x": 53,
+      "y": 0.1,
+      "z": 41.1,
+      "sx": 2.8,
+      "sz": 1.6,
+      "at": 35
+    },
+    {
+      "x": 60,
+      "y": 0.1,
+      "z": 38.8,
+      "sx": 2.8,
+      "sz": 1.6,
+      "at": 35
+    },
+    {
+      "x": 33,
+      "y": 0.1,
+      "z": 11.3,
+      "sx": 3.4,
+      "sz": 4.2,
+      "at": 2
+    },
+    {
+      "x": 39.9,
+      "y": 0.1,
+      "z": 11.5,
+      "sx": 4.2,
+      "sz": 4.2,
+      "at": 2
+    },
+    {
+      "x": 45.5,
+      "y": 0.1,
+      "z": 14.6,
+      "sx": 3.5,
+      "sz": 4.2,
+      "at": 2
+    },
+    {
+      "x": 51,
+      "y": 0.1,
+      "z": 14.7,
+      "sx": 4.2,
+      "sz": 4.2,
+      "at": 2
+    },
+    {
+      "x": 61,
+      "y": 0.1,
+      "z": 11.4,
+      "sx": 4.2,
+      "sz": 4.4,
+      "at": 2
+    },
+    {
+      "x": 66,
+      "y": 0.1,
+      "z": 14.6,
+      "sx": 3.5,
+      "sz": 4.2,
+      "at": 2
+    },
+    {
+      "x": 36.5,
+      "y": 0.1,
+      "z": 10.9,
+      "sx": 1.6,
+      "sz": 2.2,
+      "at": 2
+    }
+  ]
+}

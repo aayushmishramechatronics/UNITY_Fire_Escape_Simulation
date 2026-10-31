@@ -1,0 +1,342 @@
+{
+  "areas": [
+    {
+      "id": "lab",
+      "label": "CHEMISTRY\nLABORATORY",
+      "kind": "room",
+      "x0": -8,
+      "x1": 8,
+      "z0": -10,
+      "z1": 2
+    },
+    {
+      "id": "entry",
+      "label": "",
+      "kind": "corridor",
+      "x0": -2,
+      "x1": 2,
+      "z0": 2,
+      "z1": 10
+    },
+    {
+      "id": "main",
+      "label": "",
+      "kind": "corridor",
+      "x0": -18,
+      "x1": 22,
+      "z0": 10,
+      "z1": 14
+    },
+    {
+      "id": "exit1a",
+      "label": "",
+      "kind": "corridor",
+      "x0": -2,
+      "x1": 2,
+      "z0": 14,
+      "z1": 22
+    },
+    {
+      "id": "exit1b",
+      "label": "",
+      "kind": "corridor",
+      "x0": 2,
+      "x1": 10,
+      "z0": 18,
+      "z1": 22
+    },
+    {
+      "id": "exit2a",
+      "label": "",
+      "kind": "corridor",
+      "x0": -22,
+      "x1": -18,
+      "z0": 10,
+      "z1": 26
+    },
+    {
+      "id": "exit2b",
+      "label": "",
+      "kind": "corridor",
+      "x0": -26,
+      "x1": -22,
+      "z0": 22,
+      "z1": 26
+    },
+    {
+      "id": "exit3a",
+      "label": "",
+      "kind": "corridor",
+      "x0": 22,
+      "x1": 26,
+      "z0": 10,
+      "z1": 34
+    },
+    {
+      "id": "exit3b",
+      "label": "",
+      "kind": "corridor",
+      "x0": 6,
+      "x1": 22,
+      "z0": 30,
+      "z1": 34
+    },
+    {
+      "id": "exit3c",
+      "label": "",
+      "kind": "corridor",
+      "x0": 6,
+      "x1": 10,
+      "z0": 34,
+      "z1": 42
+    },
+    {
+      "id": "exit3d",
+      "label": "",
+      "kind": "corridor",
+      "x0": 10,
+      "x1": 30,
+      "z0": 38,
+      "z1": 42
+    },
+    {
+      "id": "assembly",
+      "label": "ASSEMBLY\nCOURTYARD",
+      "kind": "outdoor",
+      "x0": 30,
+      "x1": 40,
+      "z0": 34,
+      "z1": 46
+    },
+    {
+      "id": "chemical",
+      "label": "CHEMICAL\nSTORAGE",
+      "kind": "room",
+      "x0": -14,
+      "x1": -4,
+      "z0": 14,
+      "z1": 20
+    },
+    {
+      "id": "solvent",
+      "label": "SOLVENT\nPREPARATION",
+      "kind": "room",
+      "x0": 10,
+      "x1": 20,
+      "z0": 2,
+      "z1": 10
+    },
+    {
+      "id": "office",
+      "label": "FACULTY\nOFFICE",
+      "kind": "room",
+      "x0": -16,
+      "x1": -6,
+      "z0": 2,
+      "z1": 10
+    },
+    {
+      "id": "lab2",
+      "label": "ANALYTICAL\nLABORATORY",
+      "kind": "room",
+      "x0": 6,
+      "x1": 18,
+      "z0": 22,
+      "z1": 30
+    },
+    {
+      "id": "toilets",
+      "label": "TOILETS",
+      "kind": "room",
+      "x0": 12,
+      "x1": 20,
+      "z0": 34,
+      "z1": 38
+    },
+    {
+      "id": "utility",
+      "label": "UTILITY\nROOM",
+      "kind": "room",
+      "x0": -18,
+      "x1": -10,
+      "z0": 20,
+      "z1": 28
+    },
+    {
+      "id": "records",
+      "label": "RECORDS\nOFFICE",
+      "kind": "room",
+      "x0": 26,
+      "x1": 34,
+      "z0": 18,
+      "z1": 28
+    }
+  ],
+  "doors": [
+    {
+      "id": "lab",
+      "label": "CHEMISTRY LAB",
+      "axis": "z",
+      "x": 1,
+      "z": 2,
+      "yaw": 180,
+      "mode": "passage"
+    },
+    {
+      "id": "chemical",
+      "label": "CHEMICAL STORAGE",
+      "axis": "z",
+      "x": -9,
+      "z": 14,
+      "yaw": 0,
+      "mode": "fatal",
+      "warning": "DANGER - REACTIVE CHEMICALS"
+    },
+    {
+      "id": "solvent",
+      "label": "SOLVENT PREPARATION",
+      "axis": "z",
+      "x": 15,
+      "z": 10,
+      "yaw": 180,
+      "mode": "fatal",
+      "warning": "DANGER - FLAMMABLE VAPOURS"
+    },
+    {
+      "id": "office",
+      "label": "FACULTY OFFICE",
+      "axis": "z",
+      "x": -11,
+      "z": 10,
+      "yaw": 180,
+      "mode": "safe"
+    },
+    {
+      "id": "lab2",
+      "label": "ANALYTICAL LAB",
+      "axis": "z",
+      "x": 13,
+      "z": 30,
+      "yaw": 180,
+      "mode": "locked"
+    },
+    {
+      "id": "toilets",
+      "label": "TOILETS",
+      "axis": "z",
+      "x": 17,
+      "z": 34,
+      "yaw": 0,
+      "mode": "locked"
+    },
+    {
+      "id": "utility",
+      "label": "UTILITY ROOM",
+      "axis": "x",
+      "x": -18,
+      "z": 23,
+      "yaw": 90,
+      "mode": "locked"
+    },
+    {
+      "id": "records",
+      "label": "RECORDS OFFICE",
+      "axis": "x",
+      "x": 26,
+      "z": 23,
+      "yaw": 90,
+      "mode": "locked"
+    }
+  ],
+  "windows": [
+    {
+      "axis": "z",
+      "x": 9,
+      "z": 30
+    },
+    {
+      "axis": "z",
+      "x": 11,
+      "z": 30
+    }
+  ],
+  "routes": [
+    {
+      "label": "EXIT 1",
+      "points": [
+        {
+          "x": 1,
+          "z": 0
+        },
+        {
+          "x": 1,
+          "z": 12
+        },
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": 0,
+          "z": 20
+        },
+        {
+          "x": 10,
+          "z": 20
+        }
+      ]
+    },
+    {
+      "label": "EXIT 2",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": -20,
+          "z": 12
+        },
+        {
+          "x": -20,
+          "z": 24
+        },
+        {
+          "x": -26,
+          "z": 24
+        }
+      ]
+    },
+    {
+      "label": "EXIT 3",
+      "points": [
+        {
+          "x": 0,
+          "z": 12
+        },
+        {
+          "x": 24,
+          "z": 12
+        },
+        {
+          "x": 24,
+          "z": 32
+        },
+        {
+          "x": 8,
+          "z": 32
+        },
+        {
+          "x": 8,
+          "z": 40
+        },
+        {
+          "x": 35,
+          "z": 40
+        }
+      ]
+    }
+  ],
+  "mapX": -4,
+  "mapZ": 1.88
+}
